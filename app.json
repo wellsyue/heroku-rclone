@@ -4,11 +4,11 @@
     "keywords": ["rclone"],
     "env": {
         "rclone": {
-            "description": "$HOME/.config/rclone/rclone.conf",
+            "description": "rclone:$HOME/.config/rclone/rclone.conf",
             "value": ""
         },
-        "6pan": {
-            "description": "$HOME/config.json",
+        "pan": {
+            "description": "6盘:$HOME/config.json",
             "value": ""
         }
     },
